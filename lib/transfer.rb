@@ -12,8 +12,8 @@ class Transfer
     sender.valid? && receiver.valid?
   end
   def execute_transaction
-    receiver.balance-=@amount
-  sender.balance+=@amount
+    sender.balance-=@amount
+  receiver.balance+=@amount
     self.status = "complete"
 
   end
