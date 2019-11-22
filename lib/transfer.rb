@@ -15,6 +15,6 @@ class Transfer
     sender.balance-=@amount
   sender.balance+=@amount
     self.status = "complete"
-      
+
   end
 end
