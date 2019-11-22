@@ -4,6 +4,6 @@ class Transfer
   attr_accessor  :status
   def initialize(sender)
     @sender = sender
-    
+
   end
 end
